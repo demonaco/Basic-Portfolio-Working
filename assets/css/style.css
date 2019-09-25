@@ -12,18 +12,23 @@ h1{
     position: relative;
     top: 72px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
-
-
 
 header {
 height: 75px;
+} 
+
+.topLinks{
+display: block;
+top: -10px;
+margin: 10px 10px 10px 10px;
 }
 
 #topLine {
 width: 100%;
-
+float: left;
+color: #cccccc; 
+margin: 0%;
 }
 
 .background{
@@ -59,14 +64,19 @@ color: #49aaa5;
 font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#bottomLine{
+    color: #dddddd;
 
+}
 .aboutMeSection {
 float: top;
 padding: 90px;
-margin: 0px 175px 0px 175px;
-border: 2px black solid;
+margin: 0px 175px 0px 185px;
+border: 2px #dddddd solid;
 position: relative;
-top: -600px;
+top: -630px;
+background-color: #ffffff;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
@@ -86,22 +96,21 @@ float: left;
 float: right;
 padding-right: 25px;
 margin-right: 160px;
-position: absolute;
-
+display: inline;
 }
 
 #portfolio {
     float: right;
     padding-right: 25px;
-    position: relative;
     top: 0;
+    display: inline;
 }
 
 #contact {
-    float:right;
+    float: right;
     padding-right: 25px;
-    position: relative;
     top: 0;
+    display: inline;
 }
 
 #footer{
