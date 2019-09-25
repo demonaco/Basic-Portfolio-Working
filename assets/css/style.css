@@ -47,8 +47,6 @@ bottom:- 50%;
 display: block;
 }
 
-}
-
 .box-set1{
 
 
@@ -64,6 +62,7 @@ display: block;
 .aboutMe{
 color: #49aaa5;
 font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 #bottomLine{
@@ -72,7 +71,7 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .aboutMeSection {
 float: top;
-padding: 90px;
+padding: 43px;
 margin: 0px 175px 0px 185px;
 border: 1px #dddddd solid;
 position: relative;
@@ -83,7 +82,14 @@ color: #777777;
 width: 960px;
 font-display: 5px;
 line-height: 1.70;
+position: relative;
+/* word-wrap: normal; */
+}
 
+.paragraphs {
+margin: 0px,50px, 50px, 50px;
+padding: 0px, 100px, 0px, 0px;50
+position: relative;
 }
 
 .clearfix::after {
@@ -106,6 +112,9 @@ color: #dddddd;
     top: 0;
     display: inline;
     color: #dddddd;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+
 }
 
 #contact {
@@ -120,11 +129,12 @@ color: #dddddd;
 border-top: 8px solid #4aaaa5;
 /* float: right; */
 border: 100%;
-position: static;
+position: absolute;
 /* bottom: 50px; */
 height: 100px;
 width: 100%;
 background-color: #666666
+
 }
 
 #copyright {
@@ -133,5 +143,3 @@ left: 50%;
 bottom: -590px;
 color: #ffffff;
 font-size: 13px;
-
-}
