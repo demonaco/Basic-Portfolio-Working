@@ -28,8 +28,17 @@ color: #dddddd;
 }
 
 a:link{
-text-decoration-color:#dddddd;
+color: #777777;
+text-decoration-color:#777777;
 text-decoration: none;
+}
+
+a:visited{
+    color: #777777;
+}
+
+link::before{
+    color: #777777;
 }
 
 #topLine {
@@ -44,18 +53,26 @@ margin: 0%;
 float: top;
 height: 850px;
 width: 100%;
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 0px;
+padding: 0%;
+margin: 0%;
 position: static;
-top: -50%;
+padding-bottom: 0%;
+margin-bottom: 0%;
+/* top: -50%;
 right: -50%;
 left: -50%;
-bottom:- 50%;
+bottom:- 50%; */
 display: block;
+border-bottom: 0%;
 }
 
 body{
-    max-height: -50vh;
+    max-height: 0vh;
+    margin: 0px;
+    padding: 0px;
+    white-space: initial;
+    padding-bottom:0%;
+
 }
 
 .box-set1{
@@ -106,37 +123,39 @@ line-height: 1.70;
 /* word-wrap: normal; */
 }
 #profileImage{
-position: relative;
+position: absolute;
 margin: 0px 19px 10px 0px;
 width: 200px
 height: 200px;
-float: left;
-display: inline;
+/* display: block;
 clear: right;
+float: left; */
+text-align: wrap;
 }
 
 #inputTable {
-  position: relative;
-  padding: 43px;
-margin: 0px 175px 0px 185px;
+padding: 43px;
+margin: 0px 150px 0px 185px;
 border: 1px #dddddd solid;
+height: 400px;
 position: relative;
-top: -630px;
-background-color: #ffffff;    
+top: -815px;
+background-color: #ffffff;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+width: 960px;
+font-display: 5px;
+line-height: 1.70;
+word-wrap: normal; 
     }
 
-#photoText {
-float: right;
-position: relative;
-
-}
-
-p{
-text-align: wrap;
-padding: 5px;
-margin: 5px;
-/* text-indent: 5px; */
-}
+p{ 
+    position: static;
+text-align: wrap; 
+padding: 10px;
+margin: 0px; 
+text-indent: 5px;
+} 
 /* .paragraphs {
 margin: 50px,50px, 50px, 50px;
 padding: 0px, 100px, 0px, 0px;
@@ -163,7 +182,7 @@ overflow-inline: auto;
 #aboutMe {
 float: right;
 padding-right: 25px;
-margin-right: 170px;
+margin-right: 185px;
 margin-bottom: 20px;
 border-left: 1px solid #dddddd;
 padding-left:10px;
@@ -217,6 +236,7 @@ text-align: center;
 height: 70px;
 width: 100%;
 background-color: #666666;
+display: block;
 }
 
 #copyright {
@@ -226,3 +246,20 @@ bottom: 0%;
 /* bottom: -590px; */
 color: #ffffff;
 font-size: 13px;
+
+placeholder { 
+    width: 100%;
+}
+
+/* #field1 {
+ width: 100%;
+}
+
+#field2{
+    width: 100%;
+
+}
+
+#field3 {
+    width: 100%; */
+}
