@@ -83,9 +83,19 @@ body{
 
 }
 
-.box{
+.photoset {
+float: left;
+padding: 0px;
+margin: 20px;
 
 }
+
+
+/* .box{
+float: left;
+position: relative;
+
+} */
 .myName{
 }
 
