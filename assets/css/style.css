@@ -97,21 +97,42 @@ position: absolute;
 top: 10px;
 }
 
-.belowAboutMe{
+/* .belowAboutMe{
 position: relative;
 top: -100px;
-}
+} */
 
 
 #bottomLine{
     background-color: #dddddd;
     margin: 50px 20px 10px 50px;
     position: relative;
-
+    /* float: left; */
     right: 50px;
     width: 100%;
     height: 3px;
 }
+
+#bottomLineContact {
+    background-color: #dddddd;
+    margin: 50px 20px 10px 50px;
+    position: relative;
+    float: left;
+    right: 50px;
+    width: 100%;
+    height: 3px;
+}
+
+#bottomLinePortfolio {
+    background-color: #dddddd;
+    margin: 50px 20px 10px 50px;
+    position: relative;
+    /* float: left; */
+    right: 50px;
+    width: 100%;
+    height: 3px;
+}
+
 .aboutMeSection {
 padding: 43px;
 margin: 0px 150px 0px 185px;
@@ -126,6 +147,24 @@ font-display: 5px;
 line-height: 1.70;
 /* word-wrap: normal; */
 }
+
+.aboutMeSectionPortfolio {
+    padding: 40px;
+    margin: 0px 150px 0px 185px;
+    border: 1px #dddddd solid;
+    position: relative;
+    top: -815px;
+    margin-top: -17px;
+    padding-bottom: 400px;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 960px;
+    font-display: 5px;
+    line-height: 1.70;
+    /* word-wrap: normal; */
+    }
+
 #profileImage{
 position: absolute;
 margin: 0px 19px 10px 0px;
@@ -151,24 +190,6 @@ width: 960px;
 font-display: 5px;
 line-height: 1.70;
 word-wrap: normal; 
-}
-
-#portfolioContainer {
-    padding: 43px;
-    margin: 0px 150px 0px 185px;
-    border: 1px #dddddd solid;
-    height: 410px;
-    position: relative;
-    top: -815px;
-    background-color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    width: 960px;
-    padding-bottom: 260px;
-    margin-top: -13px;
-    font-display: 5px;
-    line-height: 1.70;
-    word-wrap: normal; 
 }
 
 p{ 
